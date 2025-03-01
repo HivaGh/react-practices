@@ -1,0 +1,45 @@
+
+.done{
+    text-decoration: line-through;
+}
+
+.card{
+    padding: 15px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    border: 1px solid rgb(184, 179, 179);
+
+    &__header{
+        padding: 12px;
+        width: auto;
+        background-color: rgb(220, 236, 245);
+        border-radius: 12px;
+    }
+
+    &__disabled{
+        background-color: rgb(152, 177, 191);    
+    }
+
+    &__close-button{
+        padding: 4px 8px;
+        // border-radius: 4px;
+        // border: 1px soldi rgb(184, 179, 179);
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.inputBox{
+    padding: 8px;
+    border-radius: 12px;}
+
+.btn{
+    padding: 8px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.txt{
+    padding: 12px;
+}
